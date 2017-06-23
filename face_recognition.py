@@ -9,8 +9,6 @@ ff = face.FACE()
 videofile = sys.argv[1]
 cap = cv2.VideoCapture(videofile)
 
-count =0
-
 while(True):
     s_time = time.time()
     ret, frame = cap.read()
